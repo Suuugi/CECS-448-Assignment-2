@@ -7,3 +7,16 @@
 	background-repeat: no-repeat;
 	min-height: 1200px;
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	margin-top: 22px;
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
