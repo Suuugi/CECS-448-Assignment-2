@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-#background{
+#background {
 	background-image:url(images/pyramid.jpeg);
 	background-size: cover;
 	background-position: center;
@@ -8,17 +8,29 @@
 	min-height: 1200px;
 }
 
-#menu p{
+#menu {
+  background-color: dimgrey
+}
+
+#menu p {
 	font-size:24px;
 	font-weight: bold;
 }
 
-#menu h5{
+#menu h2 {
+  font-weight:bold;
+  color:white; 
+}
+
+#menu h5 {
 	font-size:18px;
 }
 
 /*text increases size and changes color on hover*/
-#finances h5 {
+#finances h5, #parking h5, #academics h5, 
+#calendars h5, #housing h5, #resources h5 {
+  font-weight: bold;
+  text-align: center;
   max-width: 100%;
   
   -moz-transition: all 0.4s;
@@ -27,14 +39,17 @@
   color: goldenrod
   
 }
-#finances:hover h5 {
+#finances:hover h5, #parking:hover h5, #academics:hover h5, 
+#calendars:hover h5, #housing:hover h5, #resources:hover h5 {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   opacity:1.0
 }
 
-#parking h5 {
+/* #parking h5 {
+  font-weight: bold;
+  text-align: center;
   max-width: 100%;
   
   -moz-transition: all 0.4s;
@@ -50,6 +65,8 @@
 }
 
 #academics h5 {
+  font-weight: bold;
+  text-align: center;
   max-width: 100%;
   
   -moz-transition: all 0.4s;
@@ -65,6 +82,8 @@
 }
 
 #calendars h5 {
+  font-weight: bold;
+  text-align: center;
   max-width: 100%;
   
   -moz-transition: all 0.4s;
@@ -80,6 +99,8 @@
 }
 
 #housing h5 {
+  font-weight: bold;
+  text-align: center;
   max-width: 100%;
   
   -moz-transition: all 0.4s;
@@ -95,6 +116,8 @@
 }
 
 #resources h5 {
+  font-weight: bold;
+  text-align: center;
   max-width: 100%;
   
   -moz-transition: all 0.4s;
@@ -107,6 +130,11 @@
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+} */
+
+.img-responsive {
+  margin: 10px 0px 10px 0px; 
+  max-height: 525px
 }
 /**************************************/
 
@@ -130,32 +158,32 @@
 }
 /***************************/
 
-#financesContent{ 
-display: none;
-background-color: skyBlue;
+#financesContent, #parkingContent, #academicsContent, #calendarContent, #housingContent, #resourcesContent { 
+  display: none;
+  background-color: skyBlue;
 }
 
-#parkingContent{ 
-display: none;
-background-color: skyBlue
+/* #parkingContent { 
+  display: none;
+  background-color: skyBlue
 }
 
-#academicsContent{ 
-display: none;
-background-color: skyBlue
+#academicsContent { 
+  display: none;
+  background-color: skyBlue
 }
 
-#calendarContent{ 
-display: none;
-background-color: skyBlue
+#calendarContent { 
+  display: none;
+  background-color: skyBlue
 }
 
-#housingContent{ 
-display: none;
-background-color: skyBlue
+#housingContent { 
+  display: none;
+  background-color: skyBlue
 }
 
-#resourcesContent{ 
-display: none;
-background-color: skyBlue
-}
+#resourcesContent { 
+  display: none;
+  background-color: skyBlue
+} */
