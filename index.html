@@ -13,10 +13,11 @@
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<!-- Load the functions from javascript sources -->
-		<script src="index.js"></script>
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	</head>
+		<script src="JavaScript/jquery-1.10.2.js" type="text/javascript"></script>
+		<script type="text/javascript" src="index.js"></script>
 	<body>
 		<!--navigation bar-->
 		<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -32,10 +33,12 @@
 			
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      <ul class="nav navbar-nav navbar-right">
+			  <li><a href="#">ADMINISTRATION</a></li>
+			  <li><a href="#">ALUMNI</a></li>
 		        <li><a href="#">APPLY</a></li>
 		        <li><a href="#">EXPLORE</a></li>
 		        <li><a href="#">GIVE</a></li>
-		        <li><a href="#menu" data-toggle="collapse">MENU</a></li>
+		        <!--<li><a href="#menu" data-toggle="collapse">MENU</a></li>-->
 				
 		        <form class="navbar-form navbar-right">
 		          <div class="input-group">
@@ -49,89 +52,141 @@
 		    </div>
 		  </div>
 		  
-		  <!--menu-->
-		  <div id="menu" class="collapse">
-			<img class="img-responsive" src="images/menu.jpg" width="100%"/>
-		  </div>
-		  <!--end of menu-->
-		  
-		  <!--shortcut options-->
-		  <div id="shortcuts" style="background-color: dimgrey">
-		    <div class="container-fluid">
+			<!--menu-->
+		    <div class="container-fluid" style="background-color: dimgrey" id="menu">
+				<h2 style="color:white; font-weight:bold">I want to view</h2>
+				
+				<!--menu options-->
 				<div class="row">
 				
-					<div class="col-sm-2">
-						<div class="dropdown"> <img class="img-responsive" style="margin-top: 10px" src="images/finances.jpg"/>
-							<h5 style="color: goldenrod; font-weight: bold">FINANCES</h5>
-							<div class="dropdown-content" style="background-color: dimgrey">
-								<a href="#" style="color: white">Tuition &amp; Fees</a>
-								<a href="#" style="color: white">Financial Aid</a>
-								<a href="#" style="color: white">Housing fees &amp; options</a>
-							</div>
-						</div>
+					<div class="col-sm-2" id="finances">
+						<h5 style="font-weight: bold">TUITION &amp; FEES</h5>	
 					</div>
 					
-					<div class="col-sm-2">
-					    <div class="dropdown"> <img class="img-responsive" style="margin-top: 10px" src="images/parking.jpg"/>
-							<h5 style="color: goldenrod; font-weight: bold">PARKING &amp; MAPS</h5>
-							<div class="dropdown-content" style="background-color: dimgrey">
-								<a href="#" style="color: white">Campus map/parking</a>
-								<a href="#" style="color: white">View directions</a>
-							</div>
-						</div>
+					<div class="col-sm-2" id="parking">
+						<h5 style="font-weight: bold">PARKING &amp; MAPS</h5>
 					</div>
 					
-					<div class="col-sm-2">
-						<div class="dropdown"> <img class="img-responsive" style="margin-top: 10px" src="images/academics.jpg"/>
-							<h5 style="color: goldenrod; font-weight: bold">ACADEMICS</h5>
-							<div class="dropdown-content" style="background-color: dimgrey">
-								<a href="#" style="color: white">Majors/courses offered</a>
-								<a href="#" style="color: white">Faculty information</a>
-							</div>
-						</div>
+					<div class="col-sm-2" id="academics">
+						<h5 style="font-weight: bold">ACADEMICS</h5>
 					</div>
 					
-					<div class="col-sm-2">
-						<div class="dropdown"> <img class="img-responsive" style="margin-top: 10px" src="images/calendar.png"/>
-							<h5 style="color: goldenrod; font-weight: bold">CALENDARS</h5>
-							<div class="dropdown-content" style="background-color: dimgrey">
-								<a href="#" style="color: white">Academic calendar</a>
-								<a href="#" style="color: white">Event calendar</a>
-							</div>
-						</div>
+					<div class="col-sm-2" id="calendars">
+						<h5 style="font-weight: bold">CALENDARS</h5>
 					</div>
 					
-					<div class="col-sm-2">
-						<div class="dropdown"> <img class="img-responsive" style="margin-top: 10px" src="images/campus-life.png"/>
-							<h5 style="color: goldenrod; font-weight: bold">EXTRACURRICULARS</h5>
-							<div class="dropdown-content" style="background-color: dimgrey">
-								<a href="#" style="color: white">Learn more about campus life</a>
-								<a href="#" style="color: white">Clubs &amp; Greek life</a>
-							</div>
-						</div>
+					<div class="col-sm-2" id="housing">
+						<h5 style="font-weight: bold">HOUSING &amp; STUDENT LIFE</h5>
+					</div>
+					
+					<div class="col-sm-1 col-sm-offset-1" id="resources">
+						<h5 style="font-weight: bold">RESOURCES</h5>
 					</div>
 					
 				</div>
+				<!--end of menu options-->
+				
+				
+				<!--menu contents-->
+				<div class="row" id="financesContent">
+					<div class="col-sm-2" style="padding-top: 20px">
+						<p><a href="#" style="color: white">Tuition Rates</a></p>
+						<p><a href="#" style="color: white">Scholarships</a></p>
+						<p><a href="#" style="color: white">Financial Aid</a></p>
+					</div>
+				
+					<div class="col-sm-8">
+						<img class="img-responsive" style="margin-top: 10px" src="images/finances.jpg"/>
+					</div>		
+				</div>
+							
+				<div class="row" id="parkingContent">
+					<div class="col-sm-2" style="padding-top: 20px">
+						<p><a href="#" style="color: white">Campus Map</a></p>
+						<p><a href="#" style="color: white">Parking Policy</a></p>
+					</div>
+				
+					<div class="col-sm-6">
+						<img class="img-responsive" style="margin-top: 10px" src="images/parking.jpg"/>
+					</div>
+				</div>
+		
+			
+				<div class="row" id="academicsContent">
+					<div class="col-sm-2" style="padding-top: 20px">
+						<p><a href="#" style="color: white">Majors &amp; Degrees</a></p>
+						<p><a href="#" style="color: white">Colleges</a></p>
+						<p><a href="#" style="color: white">Schedule of Classes</a></p>
+						<p><a href="#" style="color: white">Enrollment Services</a></p>
+						<p><a href="#" style="color: white">Research</a></p>
+						<p><a href="#" style="color: white">Guidance</a></p>
+						<p><a href="#" style="color: white">International Education</a></p>
+					</div>
+				
+					<div class="col-sm-6">
+						<img class="img-responsive" style="margin-top: 10px" src="images/academics.jpg"/>
+					</div>
+				</div>
+							
+				<div class="row" id="calendarContent">
+					<div class="col-sm-2" style="padding-top: 20px">
+						<p><a href="#" style="color: white">Academic Calendars</a></p>
+						<p><a href="#" style="color: white">Events</a></p>
+						</div>
+				
+					<div class="col-sm-6">
+						<img class="img-responsive" style="margin-top: 10px" src="images/calendar.jpg"/>
+					</div>
+				</div>
+							
+
+				<div class="row" id="housingContent">
+					<div class="col-sm-2" style="padding-top: 20px">
+						<p><a href="#" style="color: white">Student Life</a></p>
+						<p><a href="#" style="color: white">Housing</a></p>
+						<p><a href="#" style="color: white">Diversity</a></p>
+						<p><a href="#" style="color: white">Athletics</a></p>
+					</div>
+				
+					<div class="col-sm-6">
+						<img class="img-responsive" style="margin-top: 10px" src="images/housing.jpg"/>
+					</div>
+				</div>
+		
+				<div class="row" id="resourcesContent">
+					<div class="col-sm-2" style="padding-top: 20px">
+						<p><a href="#" style="color: white">Campus Directory</a></p>
+						<p><a href="#" style="color: white">myCSULB</a></p>
+						<p><a href="#" style="color: white">Beachboard</a></p>
+						<p><a href="#" style="color: white">49er shops</a></p>
+						<p><a href="#" style="color: white">Email</a></p>
+						<p><a href="#" style="color: white">Library</a></p>
+						<p><a href="#" style="color: white">Careers</a></p>
+						<p><a href="#" style="color: white">Help</a></p>
+					</div>
+				
+					<div class="col-sm-6">
+						<img class="img-responsive" style="margin-top: 10px" src="images/resources.jpg"/>
+					</div>
+				</div>
+				<!--end of menu contents-->
+							
 			</div>
-			</div>
-			<!--End of shortcut options-->
+			<!--end of menu-->
 			
 		</nav>
 		<!--end of navigation bar-->
-
+		
 		
 		<!-- for background image -->
 		<div class="jumbotron" id="background">
-					
 			<div class="container-fluid">
 			</div>
-
 		</div>
-
+		
 		<div class = "footer">
 			<img src="images/footer.png" width="100%"/>
 		</div>
-
 		
 	</body>
 </html>
