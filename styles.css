@@ -38,6 +38,57 @@
   color: goldenrod
   
 }
+div.transbox{
+  margin-top: 500px;
+  margin-left: 40px;
+  width: 40%;
+  min-height: 350px;
+  background-color: #222222;
+  border: .1px solid black;
+  opacity: 0.75;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+div.transbox h2 {
+  margin: 15%;
+  margin-bottom: -100px;
+  font-size: 30px;
+  font-weight: bold;
+  color:white;
+}
+div.transbox p {
+  margin: 15%;
+  margin-bottom: 100px;
+  font-weight: thin;
+  color: white;
+}
+.button{  
+
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+.button1{
+  margin-left: 15%;
+  margin-bottom: 25px;
+  background-color: #222222;
+  color: white;
+  border: 2px solid white;
+}
+.button1:hover {
+  background-color:white;
+  color:black;
+}
 /*#finances:hover h5, #parking:hover h5, #academics:hover h5, 
 #calendars:hover h5, #housing:hover h5, #resources:hover h5 {
   -moz-transform: scale(1.1);
@@ -160,7 +211,7 @@
 
 #financesContent, #parkingContent, #academicsContent, #calendarContent, #housingContent, #resourcesContent { 
   display: none;
-  background-color: skyblue;
+  background-color: #222222;
   border: 3px solid goldenrod;
 }
 
