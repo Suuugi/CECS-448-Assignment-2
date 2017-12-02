@@ -19,33 +19,32 @@
 
 #menu h2 {
   font-weight:bold;
-  color:white; 
+  color:white;
 }
 
 #menu h5 {
 	font-size:18px;
 }
 
-/*text increases size and changes color on hover*/
 #finances h5, #parking h5, #academics h5, 
 #calendars h5, #housing h5, #resources h5 {
   font-weight: bold;
   text-align: center;
   max-width: 100%;
   
-  -moz-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   color: goldenrod
   
 }
-#finances:hover h5, #parking:hover h5, #academics:hover h5, 
+/*#finances:hover h5, #parking:hover h5, #academics:hover h5, 
 #calendars:hover h5, #housing:hover h5, #resources:hover h5 {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   opacity:1.0
-}
+}*/
 
 /* #parking h5 {
   font-weight: bold;
@@ -134,7 +133,8 @@
 
 .img-responsive {
   margin: 10px 0px 10px 0px; 
-  max-height: 525px
+  max-height: 525px;
+  width: 80%;
 }
 /**************************************/
 
@@ -160,7 +160,8 @@
 
 #financesContent, #parkingContent, #academicsContent, #calendarContent, #housingContent, #resourcesContent { 
   display: none;
-  background-color: skyBlue;
+  background-color: skyblue;
+  border: 3px solid goldenrod;
 }
 
 /* #parkingContent { 
