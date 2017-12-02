@@ -15,11 +15,11 @@ $(document).ready( function() {
 			$('#resourcesContent').hide();
 				
 			/*fade rest of options*/
-			$('#parking h5').fadeTo( 0, 0.33 );
-			$('#academics h5').fadeTo( 0, 0.33 );
-			$('#calendars h5').fadeTo( 0, 0.33 );
-			$('#housing h5').fadeTo( 0, 0.33 );
-			$('#resources h5').fadeTo( 0, 0.33 );
+			$('#parking h5').fadeTo( 0, 0.65 );
+			$('#academics h5').fadeTo( 0, 0.65 );
+			$('#calendars h5').fadeTo( 0, 0.65 );
+			$('#housing h5').fadeTo( 0, 0.65 );
+			$('#resources h5').fadeTo( 0, 0.65 );
 		});
 		$('#menu').mouseleave(function(){
 			$('#financesContent').hide();	
@@ -53,11 +53,11 @@ $(document).ready( function() {
 		$('#financesContent').mouseover(function(){
 			$('#finances h5').css("font-size", "22px")
 			
-			$('#parking h5').fadeTo( 0, 0.33 );
-			$('#academics h5').fadeTo( 0, 0.33 );
-			$('#calendars h5').fadeTo( 0, 0.33 );
-			$('#housing h5').fadeTo( 0, 0.33 );
-			$('#resources h5').fadeTo( 0, 0.33 );
+			$('#parking h5').fadeTo( 0, 0.65 );
+			$('#academics h5').fadeTo( 0, 0.65 );
+			$('#calendars h5').fadeTo( 0, 0.65 );
+			$('#housing h5').fadeTo( 0, 0.65 );
+			$('#resources h5').fadeTo( 0, 0.65);
 		});
 			
 			
@@ -72,11 +72,11 @@ $(document).ready( function() {
 			$('#resourcesContent').hide();
 				
 			/*fade rest of options*/
-			$('#finances h5').fadeTo( 0, 0.33 );
-			$('#academics h5').fadeTo( 0, 0.33 );
-			$('#calendars h5').fadeTo( 0, 0.33 );
-			$('#housing h5').fadeTo( 0, 0.33 );
-			$('#resources h5').fadeTo( 0, 0.33 );
+			$('#finances h5').fadeTo( 0, 0.65 );
+			$('#academics h5').fadeTo( 0, 0.65 );
+			$('#calendars h5').fadeTo( 0, 0.65 );
+			$('#housing h5').fadeTo( 0, 0.65 );
+			$('#resources h5').fadeTo( 0, 0.65 );
 		});
 		$('#menu').mouseleave(function(){
 			$('#parkingContent').hide();
@@ -108,11 +108,11 @@ $(document).ready( function() {
 		$('#parkingContent').mouseover(function(){
 			$('#parking h5').css("font-size", "22px")
 			
-			$('#finances h5').fadeTo( 0, 0.33 );
-			$('#academics h5').fadeTo( 0, 0.33 );
-			$('#calendars h5').fadeTo( 0, 0.33 );
-			$('#housing h5').fadeTo( 0, 0.33 );
-			$('#resources h5').fadeTo( 0, 0.33 );
+			$('#finances h5').fadeTo( 0, 0.65 );
+			$('#academics h5').fadeTo( 0, 0.65 );
+			$('#calendars h5').fadeTo( 0, 0.65 );
+			$('#housing h5').fadeTo( 0, 0.65 );
+			$('#resources h5').fadeTo( 0, 0.65 );
 		});
 			
 			
@@ -127,11 +127,11 @@ $(document).ready( function() {
 			$('#resourcesContent').hide();
 				
 			/*fade rest of options*/
-			$('#parking h5').fadeTo( 0, 0.33 );
-			$('#finances h5').fadeTo( 0, 0.33 );
-			$('#calendars h5').fadeTo( 0, 0.33 );
-			$('#housing h5').fadeTo( 0, 0.33 );
-			$('#resources h5').fadeTo( 0, 0.33 );
+			$('#parking h5').fadeTo( 0, 0.65 );
+			$('#finances h5').fadeTo( 0, 0.65 );
+			$('#calendars h5').fadeTo( 0, 0.65 );
+			$('#housing h5').fadeTo( 0, 0.65 );
+			$('#resources h5').fadeTo( 0, 0.65 );
 		});
 		$('#menu').mouseleave(function(){
 			$('#academicsContent').hide();
@@ -163,11 +163,11 @@ $(document).ready( function() {
 		$('#academicsContent').mouseover(function(){
 			$('#academics h5').css("font-size", "22px")
 			
-			$('#parking h5').fadeTo( 0, 0.33 );
-			$('#finances h5').fadeTo( 0, 0.33 );
-			$('#calendars h5').fadeTo( 0, 0.33 );
-			$('#housing h5').fadeTo( 0, 0.33 );
-			$('#resources h5').fadeTo( 0, 0.33 );
+			$('#parking h5').fadeTo( 0, 0.65 );
+			$('#finances h5').fadeTo( 0, 0.65 );
+			$('#calendars h5').fadeTo( 0, 0.65 );
+			$('#housing h5').fadeTo( 0, 0.65 );
+			$('#resources h5').fadeTo( 0, 0.65 );
 		});
 
 			
@@ -182,11 +182,11 @@ $(document).ready( function() {
 			$('#resourcesContent').hide();
 				
 			/*fade rest of options*/
-			$('#parking h5').fadeTo(0, 0.33 );
-			$('#academics h5').fadeTo( 0, 0.33 );
-			$('#finances h5').fadeTo( 0, 0.33 );
-			$('#housing h5').fadeTo( 0, 0.33 );
-			$('#resources h5').fadeTo( 0, 0.33 );
+			$('#parking h5').fadeTo(0, 0.65 );
+			$('#academics h5').fadeTo( 0, 0.65 );
+			$('#finances h5').fadeTo( 0, 0.65 );
+			$('#housing h5').fadeTo( 0, 0.65 );
+			$('#resources h5').fadeTo( 0, 0.65 );
 		});
 		$('#menu').mouseleave(function(){
 			$('#calendarContent').hide();
@@ -220,11 +220,11 @@ $(document).ready( function() {
 		$('#calendarContent').mouseover(function(){
 			$('#calendars h5').css("font-size", "22px")
 				
-			$('#parking h5').fadeTo( 0, 0.33 );
-			$('#academics h5').fadeTo( 0, 0.33 );
-			$('#finances h5').fadeTo( 0, 0.33 );
-			$('#housing h5').fadeTo( 0, 0.33 );
-			$('#resources h5').fadeTo( 0, 0.33 );
+			$('#parking h5').fadeTo( 0, 0.65 );
+			$('#academics h5').fadeTo( 0, 0.65 );
+			$('#finances h5').fadeTo( 0, 0.65 );
+			$('#housing h5').fadeTo( 0, 0.65 );
+			$('#resources h5').fadeTo( 0, 0.65 );
 		});
 			
 			
@@ -239,11 +239,11 @@ $(document).ready( function() {
 			$('#resourcesContent').hide();
 				
 			/*fade rest of options*/
-			$('#parking h5').fadeTo( 0, 0.33 );
-			$('#academics h5').fadeTo( 0, 0.33 );
-			$('#calendars h5').fadeTo( 0, 0.33 );
-			$('#finances h5').fadeTo(0, 0.33 );
-			$('#resources h5').fadeTo( 0, 0.33 );
+			$('#parking h5').fadeTo( 0, 0.65 );
+			$('#academics h5').fadeTo( 0, 0.65 );
+			$('#calendars h5').fadeTo( 0, 0.65 );
+			$('#finances h5').fadeTo(0, 0.65 );
+			$('#resources h5').fadeTo( 0, 0.65 );
 		});
 		$('#menu').mouseleave(function(){
 			$('#housingContent').hide();
@@ -275,11 +275,11 @@ $(document).ready( function() {
 		$('#housingContent').mouseover(function(){
 			$('#housing h5').css("font-size", "21px")
 				
-			$('#parking h5').fadeTo( 0, 0.33 );
-			$('#academics h5').fadeTo( 0, 0.33 );
-			$('#calendars h5').fadeTo( 0, 0.33 );
-			$('#finances h5').fadeTo( 0, 0.33 );
-			$('#resources h5').fadeTo( 0, 0.33 );
+			$('#parking h5').fadeTo( 0, 0.65 );
+			$('#academics h5').fadeTo( 0, 0.65 );
+			$('#calendars h5').fadeTo( 0, 0.65 );
+			$('#finances h5').fadeTo( 0, 0.65 );
+			$('#resources h5').fadeTo( 0, 0.65 );
 		});
 			
 			
@@ -294,11 +294,11 @@ $(document).ready( function() {
 			$('#housingContent').hide();
 				
 			/*fade rest of options*/
-			$('#parking h5').fadeTo( 0, 0.33 );
-			$('#academics h5').fadeTo( 0, 0.33 );
-			$('#calendars h5').fadeTo( 0, 0.33 );
-			$('#housing h5').fadeTo( 0, 0.33 );
-			$('#finances h5').fadeTo( 0, 0.33 );
+			$('#parking h5').fadeTo( 0, 0.65 );
+			$('#academics h5').fadeTo( 0, 0.65 );
+			$('#calendars h5').fadeTo( 0, 0.65 );
+			$('#housing h5').fadeTo( 0, 0.65 );
+			$('#finances h5').fadeTo( 0, 0.65 );
 		});
 		$('#menu').mouseleave(function(){
 			$('#resourcesContent').hide();
@@ -330,10 +330,10 @@ $(document).ready( function() {
 		$('#resourcesContent').mouseover(function(){
 			$('#resources h5').css("font-size", "22px")
 				
-			$('#parking h5').fadeTo( 0, 0.33 );
-			$('#academics h5').fadeTo( 0, 0.33 );
-			$('#calendars h5').fadeTo( 0, 0.33 );
-			$('#housing h5').fadeTo( 0, 0.33 );
-			$('#finances h5').fadeTo( 0, 0.33 );
+			$('#parking h5').fadeTo( 0, 0.65 );
+			$('#academics h5').fadeTo( 0, 0.65 );
+			$('#calendars h5').fadeTo( 0, 0.65 );
+			$('#housing h5').fadeTo( 0, 0.65 );
+			$('#finances h5').fadeTo( 0, 0.65 );
 		});		
  });
