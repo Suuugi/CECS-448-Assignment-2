@@ -31,7 +31,7 @@ $(document).ready( function() {
 			$('#resources h5').fadeTo( 0, 1.0 );
 		});
 		$('#financesContent').mouseleave(function(){
-			$('#finances h5').css("font-size", "18px")
+			$('#finances h5').css("font-size", "16px")
 			
 			$('#parking h5').fadeTo( 0, 1.0 );
 			$('#academics h5').fadeTo( 0, 1.0 );
@@ -41,7 +41,7 @@ $(document).ready( function() {
 			
 		});
 		$('#finances').mouseleave(function(){
-			$('#finances h5').css("font-size", "18px")
+			$('#finances h5').css("font-size", "16px")
 			
 			$('#parking h5').fadeTo( 0, 1.0 );
 			$('#academics h5').fadeTo( 0, 1.0 );
@@ -88,7 +88,7 @@ $(document).ready( function() {
 			$('#resources h5').fadeTo( 0, 1.0 );
 		});
 		$('#parkingContent').mouseleave(function(){
-			$('#parking h5').css("font-size", "18px")
+			$('#parking h5').css("font-size", "16px")
 				
 			$('#finances h5').fadeTo( 0, 1.0 );
 			$('#academics h5').fadeTo( 0, 1.0 );
@@ -97,7 +97,7 @@ $(document).ready( function() {
 			$('#resources h5').fadeTo( 0, 1.0 );
 		});
 		$('#parking').mouseleave(function(){
-			$('#parking h5').css("font-size", "18px")
+			$('#parking h5').css("font-size", "16px")
 			
 			$('#finances h5').fadeTo( 0, 1.0 );
 			$('#academics h5').fadeTo( 0, 1.0 );
@@ -143,7 +143,7 @@ $(document).ready( function() {
 			$('#resources h5').fadeTo( 0, 1.0 );
 		});
 		$('#academicsContent').mouseleave(function(){
-			$('#academics h5').css("font-size", "18px")
+			$('#academics h5').css("font-size", "16px")
 			
 			$('#parking h5').fadeTo( 0, 1.0 );
 			$('#finances h5').fadeTo(0, 1.0 );
@@ -152,7 +152,7 @@ $(document).ready( function() {
 			$('#resources h5').fadeTo( 0, 1.0 );
 		});
 		$('#academics').mouseleave(function(){
-			$('#academics h5').css("font-size", "18px")
+			$('#academics h5').css("font-size", "16px")
 			
 			$('#parking h5').fadeTo( 0, 1.0 );
 			$('#finances h5').fadeTo( 0, 1.0 );
@@ -199,7 +199,7 @@ $(document).ready( function() {
 				
 		});
 		$('#calendarContent').mouseleave(function(){
-			$('#calendars h5').css("font-size", "18px")
+			$('#calendars h5').css("font-size", "16px")
 			
 				
 			$('#parking h5').fadeTo( 0, 1.0 );
@@ -209,7 +209,7 @@ $(document).ready( function() {
 			$('#resources h5').fadeTo( 0, 1.0 );
 		});
 		$('#calendars').mouseleave(function(){
-			$('#calendars h5').css("font-size", "18px")
+			$('#calendars h5').css("font-size", "16px")
 				
 			$('#parking h5').fadeTo( 0, 1.0 );
 			$('#academics h5').fadeTo( 0, 1.0 );
@@ -255,7 +255,7 @@ $(document).ready( function() {
 			$('#resources h5').fadeTo( 0, 1.0 );
 		});
 		$('#housingContent').mouseleave(function(){
-			$('#housing h5').css("font-size", "18px")
+			$('#housing h5').css("font-size", "16px")
 				
 			$('#parking h5').fadeTo( 0, 1.0 );
 			$('#academics h5').fadeTo( 0, 1.0 );
@@ -264,7 +264,7 @@ $(document).ready( function() {
 			$('#resources h5').fadeTo( 0, 1.0 );
 		});
 		$('#housing').mouseleave(function(){
-			$('#housing h5').css("font-size", "18px")
+			$('#housing h5').css("font-size", "16px")
 				
 			$('#parking h5').fadeTo( 0, 1.0 );
 			$('#academics h5').fadeTo( 0, 1.0 );
@@ -310,7 +310,7 @@ $(document).ready( function() {
 			$('#finances h5').fadeTo( 0, 1.0 );
 		});
 		$('#resourcesContent').mouseleave(function(){
-			$('#resources h5').css("font-size", "18px")
+			$('#resources h5').css("font-size", "16px")
 				
 			$('#parking h5').fadeTo( 0, 1.0 );
 			$('#academics h5').fadeTo( 0, 1.0 );
@@ -319,7 +319,7 @@ $(document).ready( function() {
 			$('#finances h5').fadeTo( 0, 1.0 );
 		});
 		$('#resources').mouseleave(function(){
-			$('#resources h5').css("font-size", "18px")
+			$('#resources h5').css("font-size", "16px")
 				
 			$('#parking h5').fadeTo( 0, 1.0 );
 			$('#academics h5').fadeTo( 0, 1.0 );

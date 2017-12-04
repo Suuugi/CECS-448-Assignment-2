@@ -11,6 +11,7 @@
   background-color: dimgrey
 }
 #iwmenu h2 {
+  font: italic 24px/30px Georgia, serif;
   font-weight:bold;
   color:white;
 }
@@ -29,11 +30,12 @@
 }
 
 #menu h5 {
-	font-size:18px;
+	font: 16px Georgia, serif;
 }
 
 #finances h5, #parking h5, #academics h5, 
 #calendars h5, #housing h5, #resources h5 {
+
   font-weight: bold;
   text-align: center;
   max-width: 100%;
